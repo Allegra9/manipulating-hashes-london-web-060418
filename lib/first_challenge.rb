@@ -16,7 +16,7 @@ def first_challenge
   #your code here
 contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
 contacts["Freddy Mercury"][:address] = "The Lord Commander's Rooms, The Wall, Westeros"
-if contacts["Freddy Mercury"][:favorite_icecream_flavors]delete_if
+if contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if
   {[:favorite_icecream_flavors].include?("strawberry")}
   
 end 
